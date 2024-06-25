@@ -1,0 +1,218 @@
+body{
+    font-family:montserrat; 
+}
+#title{
+    background-color: #ff4c68;
+}
+.meet{
+    font-family:Montserrat;
+    font-size: 3.2rem;
+    line-height:1.5;
+    font-weight:900;
+    color: white;
+    margin-bottom:2rem; 
+}
+.container-fluid{
+    padding:1.7% 15% 10%;
+    height: 80%;
+}
+.tindog{
+    font-family:ubuntu;
+    font-weight: bold;
+    font-size:2.5rem;
+}
+
+.navele{
+    font-size: large;
+    margin:auto 20px;
+    font-family: montserrat;
+    font-weight: light;
+}
+
+nav{
+    margin:10px auto 4.4rem ;
+}
+
+.download-button{
+    margin-right:5%;
+    margin-top: 30px;
+}
+
+        /* Title Image */
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 10%;
+    z-index: 0;
+
+}
+
+        /* FEATURES */
+
+#features{
+    margin:0 auto;
+    padding-top:5%;
+    position:relative;
+    background-color:white ;
+    z-index:1;
+}
+
+.features-box{
+    height: 300px;
+    text-align: center;
+    padding: 50px 35px;
+    font-family: montserrat;
+    line-height:1.5;
+    font-weight:bolder;
+
+}
+.features-heading{
+    font-family: montserrat;
+    font-weight:bolder;
+    font-size:1.56rem;
+}
+.features-para{
+    color:#8f8f8f;
+    font-weight:600;
+}
+.features-img{
+    font-size: 70px;
+    margin-bottom: 1.5rem;
+    color:#ef8172;
+
+}
+.features-img:hover{
+    color:#ff4c68;
+
+}
+ 
+        /* TESTIMONIALS */
+
+#testimonials{
+    text-align:center;
+    background-color:#ef8172;
+    color:#fff;
+    
+
+}
+
+h2{
+    font-family:montserrat;
+    font-weight:900;
+    color:#fff;
+    font-size:47px;
+    line-height:1.5;
+   
+
+}
+.testimonial-image{
+    border-radius:100%;
+    margin:20px;
+    width:10%;
+}
+
+#carouselExampleIndicators{
+    padding:100px 15% 100px;
+}
+
+        /* PRESS */
+
+#press{
+    background-color:#ef8172;
+    text-align:center;
+    padding-bottom:5%;
+}
+
+.press-logo{
+    padding:10px 35px 50px ;
+    text-align: center;
+    width:15%;
+}
+
+        /* PRICING */
+
+#pricing{
+    text-align:center;
+    padding: 65px 100px 70px;
+}
+
+.pricing-header{
+    color: black;
+}
+.pricepara{
+    margin:14px auto;
+}
+
+.price{
+    color: black;
+    margin-bottom: 25px;
+
+}
+.p-content{
+    margin-bottom:50px;
+}
+.card-body{
+    margin: 20px auto;
+}
+.card{
+    margin: 43px auto 10px;
+    border-radius:20px;
+}
+
+        /* CALL TO ACTION */
+
+#cta{
+    background-color:#ff4c68;
+    font-family: montserrat;
+    text-align:center;
+    padding:9% 15%;
+}
+
+.cta-heading{
+    font-size:4rem;
+    font-weight:900;
+    color:#fff;
+    padding-bottom: 3%;
+
+}
+.footer-download{
+    font-size:2rem;
+    border-radius:  10px;
+
+
+}
+
+        /* FOOTER */
+
+#footer{
+    padding:8%;
+    text-align:center;
+}
+
+.logo{
+    padding:2% 2%;
+    font-size:20px;
+}
+
+@media (max-width: 1190px){
+    .title-img{
+        transform: rotate(0);
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width: 992px){
+    #title{
+        text-align:center;
+    }
+    .title-img{
+        position: static;
+        width: 65%;
+        margin-top: 10%;
+
+    }
+}
